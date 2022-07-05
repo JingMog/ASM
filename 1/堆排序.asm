@@ -10,7 +10,6 @@ datas segment
 datas ends
 
 
-
 stacks segment
     ;此处输入堆栈段代码
 stacks ends
@@ -18,7 +17,6 @@ stacks ends
 codes segment
     assume cs:codes,ds:datas,ss:stacks
 start:
-    mov ax,0
     mov ax,datas
     mov ds,ax
     ;此处输入代码段代码
