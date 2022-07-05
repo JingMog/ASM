@@ -4,6 +4,10 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+*.pdf
+*.pptx
+/Study
+/报告
 # Other files and folders
 .settings/
 
