@@ -1,0 +1,3 @@
+code segment
+
+code ends
